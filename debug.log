@@ -1,3 +1,11 @@
-[1012/232951.561:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1012/235722.120:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1013/004014.020:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+2020-11-27T13:01:44.229924+00:00 heroku[run.6647]: State changed from starting to up
+2020-11-27T13:01:49.391058+00:00 heroku[run.6647]: Process exited with status 127
+2020-11-27T13:01:49.425052+00:00 heroku[run.6647]: State changed from up to complete
+2020-11-27T13:01:56.720274+00:00 app[api]: Starting process with command `bash` by user saumitandhari@gmail.com
+2020-11-27T13:02:08.398206+00:00 heroku[run.6668]: State changed from starting to up
+2020-11-27T13:02:08.761215+00:00 heroku[run.6668]: Awaiting client
+2020-11-27T13:02:08.787900+00:00 heroku[run.6668]: Starting process with command `bash`
+2020-11-27T13:03:50.623031+00:00 heroku[run.6668]: Client connection closed. Sending SIGHUP to all processes
+2020-11-27T13:03:51.160507+00:00 heroku[run.6668]: Process exited with status 129
+2020-11-27T13:03:51.221282+00:00 heroku[run.6668]: State changed from up to complete
