@@ -5,10 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
-const port = Process.env.PORT || 3000 
-server.listen(port,()=>{  // do not add localhost here if you are deploying it
-    console.log("server listening to port "+port);
-});
+
 # Load Models
 iris = pickle.load(open('templates/Supervised/Classification/Iris_Classifier/iris.pkl', 'rb'))
 performance = pickle.load(open('templates/Supervised/Regression/Vehicle Performance/performance.pkl', 'rb'))
