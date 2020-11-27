@@ -3,10 +3,8 @@ import pickle
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-import os
-app = Flask(__name__)
 
-port = int(os.environ.get('PORT', 8000))
+app = Flask(__name__)
 
 # Load Models
 iris = pickle.load(open('templates/Supervised/Classification/Iris_Classifier/iris.pkl', 'rb'))
