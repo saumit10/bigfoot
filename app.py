@@ -1,13 +1,10 @@
 from flask import Flask, render_template, request
 import pickle
-import os
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
-
-port = int(os.environ.get('PORT', 8000))
 
 
 # Load Models
