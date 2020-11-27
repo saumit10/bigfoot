@@ -1,3 +1,100 @@
-[1012/232951.561:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1012/235722.120:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1013/004014.020:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+2020-11-27T12:25:21.687426+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=1d2cbe3a-e231-43ca-bc4d-b1ddeafcf980 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:25:22.049638+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=beba7ba9-a874-4e17-9e27-8702f8bccd72 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:26:02.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T12:26:56.057077+00:00 app[api]: Deploy f4bff3c0 by user saumitandhari@gmail.com
+2020-11-27T12:26:56.057077+00:00 app[api]: Release v20 created by user saumitandhari@gmail.com
+2020-11-27T12:26:56.252553+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:27:11.096501+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:27:14.275840+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:27:14.375887+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:27:14.421166+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:27:19.000000+00:00 app[api]: Build succeeded
+2020-11-27T12:27:50.893088+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:28:00.003941+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:28:01.596033+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:28:01.636019+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:28:01.678686+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:30:51.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T12:31:35.279422+00:00 app[api]: Deploy be5e824d by user saumitandhari@gmail.com
+2020-11-27T12:31:35.279422+00:00 app[api]: Release v21 created by user saumitandhari@gmail.com
+2020-11-27T12:31:35.560908+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:31:45.355284+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:31:47.837099+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:31:47.911117+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:31:47.952424+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:31:58.000000+00:00 app[api]: Build succeeded
+2020-11-27T12:32:09.943873+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=5f81469c-d6ec-493e-acfd-17ffd1241d2e fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:32:10.283177+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=5a359cda-6367-4349-be81-6b0669966f21 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:32:16.959179+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=041e05ae-71db-4b09-b508-93fe19b8c2ad fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:32:17.476959+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=3b1b19b1-9d67-45c7-8db4-830eceb5d4eb fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:32:41.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T12:33:36.345859+00:00 app[api]: Deploy 9a50a9af by user saumitandhari@gmail.com
+2020-11-27T12:33:36.345859+00:00 app[api]: Release v22 created by user saumitandhari@gmail.com
+2020-11-27T12:33:36.615953+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:33:48.789897+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:33:51.289583+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:33:51.361384+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:33:51.406685+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:34:01.000000+00:00 app[api]: Build succeeded
+2020-11-27T12:54:42.401768+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=4d0de713-cac7-4ac4-ba2f-6961d06f5699 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:54:42.794662+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=ef8e6df2-70c4-47b3-b471-4081a1c4b6e2 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:58:33.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T12:59:28.210316+00:00 app[api]: Deploy 9a50a9af by user saumitandhari@gmail.com
+2020-11-27T12:59:28.210316+00:00 app[api]: Release v23 created by user saumitandhari@gmail.com
+2020-11-27T12:59:28.638249+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:59:38.831873+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:59:41.291666+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:59:41.349164+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:59:41.385753+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:59:41.389255+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T12:59:52.000000+00:00 app[api]: Build succeeded
+2020-11-27T12:59:54.073200+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T12:59:56.799107+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T12:59:56.869399+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T12:59:56.931608+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T12:59:57.633755+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=cadecf8b-40d4-4d46-8af6-a92fe97acb6b fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T12:59:57.998300+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=bcbcde9c-a2c6-4e54-89be-9bfee6edb012 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:01:02.196809+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=999730ee-29d5-4cb3-9ed1-bc61554ddfa8 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:01:02.570585+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=69b79fa6-023e-4eab-8a3b-2c4166e03f95 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:01:30.911375+00:00 app[api]: Starting process with command `console` by user saumitandhari@gmail.com
+2020-11-27T13:01:44.172667+00:00 heroku[run.6647]: Awaiting client
+2020-11-27T13:01:44.197023+00:00 heroku[run.6647]: Starting process with command `console`
+2020-11-27T13:01:44.229924+00:00 heroku[run.6647]: State changed from starting to up
+2020-11-27T13:01:49.391058+00:00 heroku[run.6647]: Process exited with status 127
+2020-11-27T13:01:49.425052+00:00 heroku[run.6647]: State changed from up to complete
+2020-11-27T13:01:56.720274+00:00 app[api]: Starting process with command `bash` by user saumitandhari@gmail.com
+2020-11-27T13:02:08.398206+00:00 heroku[run.6668]: State changed from starting to up
+2020-11-27T13:02:08.761215+00:00 heroku[run.6668]: Awaiting client
+2020-11-27T13:02:08.787900+00:00 heroku[run.6668]: Starting process with command `bash`
+2020-11-27T13:03:50.623031+00:00 heroku[run.6668]: Client connection closed. Sending SIGHUP to all processes
+2020-11-27T13:03:51.160507+00:00 heroku[run.6668]: Process exited with status 129
+2020-11-27T13:03:51.221282+00:00 heroku[run.6668]: State changed from up to complete
+2020-11-27T13:06:05.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T13:06:55.115754+00:00 app[api]: Release v24 created by user saumitandhari@gmail.com
+2020-11-27T13:06:55.115754+00:00 app[api]: Deploy 9d8d1999 by user saumitandhari@gmail.com
+2020-11-27T13:06:55.396085+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T13:06:55.430187+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=aaa511c2-2941-40d5-ad34-be5a2be27c82 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:06:55.808463+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=8248f605-bf5b-4646-b090-c04138958643 fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:07:04.491586+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T13:07:06.452483+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T13:07:06.504116+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T13:07:06.545614+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T13:07:18.000000+00:00 app[api]: Build succeeded
+2020-11-27T13:08:18.000000+00:00 app[api]: Build started by user saumitandhari@gmail.com
+2020-11-27T13:09:05.379947+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=45240f82-9268-4596-b987-87cd6798a98f fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:09:06.297057+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=f81a4203-25da-4827-97c0-3224a980058d fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:09:09.827087+00:00 app[api]: Release v25 created by user saumitandhari@gmail.com
+2020-11-27T13:09:09.827087+00:00 app[api]: Deploy 88a87170 by user saumitandhari@gmail.com
+2020-11-27T13:09:10.415090+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T13:09:21.376509+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T13:09:23.480044+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T13:09:23.547120+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T13:09:23.592181+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T13:09:34.000000+00:00 app[api]: Build succeeded
+2020-11-27T13:09:57.973801+00:00 heroku[web.1]: State changed from crashed to starting
+2020-11-27T13:10:07.198813+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-11-27T13:10:09.032113+00:00 app[web.1]: bash: gunicorn: command not found
+2020-11-27T13:10:09.070882+00:00 heroku[web.1]: Process exited with status 127
+2020-11-27T13:10:09.096612+00:00 heroku[web.1]: State changed from starting to crashed
+2020-11-27T13:11:55.539254+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bigfootapp.herokuapp.com request_id=d9e279fb-6ef9-4893-92fa-b12c30ebd9bf fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
+2020-11-27T13:11:55.900203+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bigfootapp.herokuapp.com request_id=04333329-5749-4410-95fd-39669eeb7a6d fwd="43.241.128.119" dyno= connect= service= status=503 bytes= protocol=https
